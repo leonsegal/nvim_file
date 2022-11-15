@@ -11,6 +11,12 @@ set diffopt+=vertical " show diffs side by side
 noremap <SPACE> <C-F> " use space to scroll
 noremap <TAB> <)> " use tab to go to next sentence
 
+set scrolloff=8
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+
 autocmd TextChanged,TextChangedI <buffer> silent write " autosave buffer on change
 
 " Commands:
